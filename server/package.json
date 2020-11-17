@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "http-errors": "^1.8.0",
+    "http-status-codes": "^2.1.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multiparty": "^4.2.2"
+  },
+  "scripts": {
+    "start": "cross-env PORT=8000 ts-node-dev --respawn ./src/www.ts",
+    "dev": "cross-env PORT=8000  nodemon --exec ts-node --files ./src/www.ts",
+    "utils": "ts-node ./src/utils.ts"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "@types/cors": "^2.8.8",
+    "@types/express": "^4.17.9",
+    "@types/fs-extra": "^9.0.4",
+    "@types/http-errors": "^1.8.0",
+    "@types/morgan": "^1.9.2",
+    "@types/multer": "^1.4.4",
+    "@types/multiparty": "^0.0.32",
+    "@types/node": "^14.14.7",
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
